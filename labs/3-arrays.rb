@@ -15,3 +15,9 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+shopping_list1 = ["tofu", "pizza", "beer", "bananas"]
+shopping_list2 = ["soy joghurt", "mangos", "pizza", "vegan cream cheese", "lacroix"]
+shopping_list_combined = shopping_list1 + shopping_list2
+shopping_list_sorted_unique = shopping_list_combined.uniq
+puts "buy #{shopping_list_sorted_unique}"
